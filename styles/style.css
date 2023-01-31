@@ -1,0 +1,390 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+  margin: 0%;
+  padding:0%;
+  box-sizing:border-box;
+}
+
+
+html{
+  font-size: 16px;
+
+}
+
+.root{
+
+  --clr-dark:#1f2937;
+  --clr-light:#f9faf8;
+  --clr-blue:#3882f6;
+  --clr-bg-light:#e5e7eb;
+}
+
+body{
+  font-family: 'Kanit', sans-serif;
+  height: 100vh;
+  width: auto;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+
+img{
+  width: 100%;
+  height:auto;
+}
+
+.header{
+  font-weight: 500;
+  height: 65vh;
+  background-image: linear-gradient(darkblue,black);
+  padding-bottom: 1rem;
+  margin-bottom:1rem;
+}
+
+.navbar{
+  width: 85%;
+  height: 5rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.logo-container{
+  width: 150px;
+}
+
+.nav-list-container{
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item{
+  margin:1rem;
+}
+
+.nav-link{
+  font-weight: 500;
+font-size: 1.50rem;
+color:white;
+}
+
+.hero-section{
+  width: 85%;
+  display: flex;
+  height: calc(65vh- 6rem);
+  margin: 1rem auto ;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-heading{
+  font-size: 3rem;
+  color:white;
+  font-weight: 800;
+}
+
+.hero-description{
+  font-size: 1.15rem;
+  color:white;
+  margin-bottom:0.5rem ;
+}
+
+.hero-left-container{
+  margin: 1rem ;
+}
+
+.hero-right-container{
+  width: 100%;
+  margin: 1rem 1rem;
+
+}
+
+.car-logo{
+  border-radius: 8px;
+}
+
+
+/* product-section */
+
+.products{
+  padding-top:1rem;
+  padding-bottom: 1rem
+  ;
+  
+}
+
+.section-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.products-container{
+  width: 75%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+
+.product{
+  background-color: skyblue;
+  text-align: center;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+  box-shadow: 3px 6px 3px rgba(0,0,0,0.30);
+
+}
+.product-image{
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+.product-title{
+font-size: 1.1rem;
+margin: 0.25rem auto;
+}
+
+.product-description{
+  font-size: 0.9rem;
+  margin: 0.25rem 1rem;
+}
+/* product-section-end */
+/* quote-section*/
+
+.quote{
+  margin-top: 3rem;
+  padding: 2rem 2rem;
+  background-color:skyblue;
+}
+
+.quote-description{
+  width: 60%;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.cite{
+  width: 65%;
+  font-size:1.25rem;
+  font-weight:900;
+  display: block;
+  text-align: end;
+}
+
+/* login-section */
+
+.login{
+  padding: 3rem 2rem;
+}
+
+.card{
+  width: 65%;
+  background-color: #3882f6;
+  margin: auto;
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 2rem;
+}
+.login-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  padding-bottom:0.50rem;
+  padding-top:1rem;
+}
+
+.title-para{
+  font-size:1rem;
+  color: white;
+}
+
+/*footer-section */
+.footer-section{
+  background-color: #1f2937;
+  color:white;
+  margin:auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.login-button{
+  padding: 5px 25px;
+  border: 2px solid white;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 7px;
+}
+
+
+.btn-blue{
+  padding:5px 25px;
+  border: 2px solid white;
+  background-color:var(--clr-blue);
+  color: #e5e7eb;
+  border-radius: 7px;
+}
+
+
+@media screen and (max-width:700px) {
+
+  .header{
+    height: 49vh;
+  }
+
+  .nav-link{
+font-size: 13px;
+  }
+
+  .nav-list-container{
+    padding-left: 2rem;
+  }
+  
+  .hero-section{
+    width: 60%;
+  }
+.logo-tesla{
+  width: 100%;
+}
+
+.logo-container{
+width: 60%;
+}
+  .main-heading{
+font-size: 20px;
+margin-top: -3rem;
+margin-left: -4rem;
+  }
+
+  .hero-description{
+    margin-left:-5rem;
+    font-size: 12px;
+    width: 370px;
+    padding: 0rem 1rem;
+
+  }
+
+.car-logo{
+  width: 200px;
+  border-radius: 0%;
+
+}
+
+  .hero-right-container{
+    width: 100%;
+margin-bottom: -15rem;
+    margin-left: -20.20rem;
+  }
+
+ .btn-blue{
+margin-left: 2rem;
+width: 43%;
+margin-bottom: 1rem;
+ }
+
+ .products-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: -3rem;
+ }
+
+ .product-image{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+ }
+
+ .quote{
+  width: auto;
+  display: flex;
+  margin-top: -1rem;
+  margin-bottom: -3rem;
+  /* flex-direction: row; */
+ }
+ .quote-description{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 1.4rem;
+ }
+ .cite{
+  font-size: 12px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 12rem;
+ 
+ }
+ .card{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 1rem;
+  flex-direction: row;
+ }
+.login{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+
+}
+
+ .login-left-container{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0;
+  padding: 0;
+ }
+
+ .right-container{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+ }
+
+ .login-title{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  margin-left: -3rem;
+  font-size: 14px;
+  margin-top: -2rem;
+ }
+ .title-para{
+  margin-left: -12rem;
+  margin-top: 1rem;
+  width: 300px;
+  font-size: 12px;
+  flex-direction: row;
+ }
+ .login-button{
+width: auto;
+ margin-right: -3rem;
+ }
+ 
+}

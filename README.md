@@ -1,2 +1,2 @@
-# My-car-page
-HTML CSS
+# sales-landing
+ frontend mentor challenge
